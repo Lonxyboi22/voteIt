@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,10 @@
   },
   "homepage": "https://github.com/Lonxyboi22/voteIt#readme",
   "dependencies": {
-    "mysql": "^2.18.1",
+    "express": "^4.18.1",
     "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
   }
 }
