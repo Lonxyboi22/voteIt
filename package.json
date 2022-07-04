@@ -1,0 +1,23 @@
+{
+  "name": "voteit",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lonxyboi22/voteIt.git"
+  },
+  "author": "Andrew Mac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lonxyboi22/voteIt/issues"
+  },
+  "homepage": "https://github.com/Lonxyboi22/voteIt#readme",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
+  }
+}
