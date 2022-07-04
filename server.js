@@ -30,6 +30,10 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
+db.query(`SELECT * FROM candidates`, (err, rows) => {
+    console.log(rows);
+  });
+
   app.get('/', (req, res) => {
     res.json({
       message: 'Hello World'
